@@ -17,6 +17,10 @@ Even Better Algorithm:
 - Do the Basic Algorithm for $n-4$ plates.
 - For the last $4$ smaller plates, do as shown below.
 
+[Last 4 Plates Sorting](Plots/Last-4-Plate.jpg)
+*Sorting the Last 4 plates in one of the two worst cases.*
+
+
 # Worst Case Complexity
 The worst case complexities of the above algorithms are:
 - Basic Algorithm: Each step requires $2$ flips. Thus, total $2n$ flips.

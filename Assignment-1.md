@@ -17,11 +17,29 @@ n | steps
 --|--
 1 | 0
 2 |	1
-3 |	1
+3 |	2
 4 |	2
-5 |	2
-6 |	2
-7 |	2
+5 |	3
+6 |	3
+7 |	3
 8 |	3
-9 |	3
-10 | 3
+9 |	4
+10 | 4
+
+# Implementation
+For implementation purpose, instead of subsetting the array, I used markers for upper bound and lower bound.
+```
+def binary_search(arr, x):
+    lb, ub = 0, len(arr)-1
+    steps = 0
+    while lb <= ub:
+        mid = (lb + ub) // 2
+        if x < arr[mid]:
+            ub = mid - 1
+        elif x > arr[mid]:
+            lb = mid + 1
+        else:
+            return "found", steps
+        steps += 1
+    return "not found", steps
+```

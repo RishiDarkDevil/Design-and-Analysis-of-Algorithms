@@ -18,6 +18,8 @@ Now, the only way to find the maximum and minimum element is to find $n-2$ neith
 This gives the maximum and minimum in $n-2$ comparisons.\
 The above algorithm attains the minimum number of comparisons i.e. $\frac{n}{2} + (\frac{n}{2} - 1) + (\frac{n}{2} - 1) = \frac{n}{2} + (n-2) = \frac{3n}{2} - 2$ comparisons.
 
+[Diagramatic Explanation of the Proof](./Plots/Min-Max-Array.png)
+
 # Implementation
 For implementation, I didn't use another arrays to store larger elements and smaller elements, instead I reused the original array.\
 Code:

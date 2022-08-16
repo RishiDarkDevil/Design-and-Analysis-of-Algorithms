@@ -21,7 +21,7 @@ Even Better Algorithm:
 *Sorting the Last 4 plates in one of the two worst cases.*
 
 Extended Even Better Algorithm:
-- We observe pattern of plates in the `Even Better Algorithm` and we continually sort the above plates based on the following algorithm from top to bottom thereby sorting the entire stack.
+- We observe pattern of plates in the `Even Better Algorithm` and we continually sort the above plates based on the following algorithm from top to bottom thereby sorting the entire stack of plates.
 
 [Extended Even Better Algorithm](./Plots/Better-Plates.png)
 

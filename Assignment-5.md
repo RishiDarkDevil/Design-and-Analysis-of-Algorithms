@@ -47,4 +47,5 @@ def find_kth_small(arr, k, steps = 1):
 ```
 
 # Performance
-On testing the number of steps taken to find the median for various array sizes where array elements are random integers from 0 to N. We got the following result
+On testing the number of steps taken to find the median for various array sizes where array elements are random integers from 0 to N. We got the following result.
+[Growth of number of Steps with Array Size](Plots/QuickSelect.png)

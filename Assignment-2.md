@@ -17,13 +17,13 @@ Even Better Algorithm:
 - Do the Basic Algorithm for $n-4$ plates.
 - For the last $4$ smaller plates, do as shown below.
 
-[Last 4 Plates Sorting](./Plots/Last-4-Plates.png)
+![Last 4 Plates Sorting](./Plots/Last-4-Plates.png)
 *Sorting the Last 4 plates in one of the two worst cases.*
 
 Extended Even Better Algorithm:
 - We observe pattern of plates in the `Even Better Algorithm` and we continually sort the above plates based on the following algorithm from top to bottom thereby sorting the entire stack of plates.
 
-[Extended Even Better Algorithm](./Plots/Better-Plates.png)
+![Extended Even Better Algorithm](./Plots/Better-Plates.png)
 
 
 # Worst Case Complexity

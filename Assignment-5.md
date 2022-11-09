@@ -5,7 +5,7 @@ Find the average time complexity of finding the $k^{th}$ smallest element of the
 - Randomly select any index $i$ from $1$ to $n$.
 - Determine the number of elements smaller than $arr[i]$ in the array and store them in $LESSER$ array and the remaining elements except $arr[i]$ in $GREATER$ array.
 - If size of $LESSER \le k-1$ repeat the algorithm by taking $GREATER$ as our original array. 
-- If size of $LESSER \ge k-1$ repeat the algorithm by taking $GREATER$ as our original array.
+- If size of $LESSER \ge k-1$ repeat the algorithm by taking $LESSER$ as our original array.
 - Otherwise size of $LESSER = k-1$ which implies $arr[i]$ is the $k^{th}$ smallest element of the array.
 
 # Proof
